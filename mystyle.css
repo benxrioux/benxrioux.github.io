@@ -2,8 +2,14 @@ body {
     background-color: white;
   }
   @font-face {
-    font-family: suisseIntlLight;
-    src: url('SuisseIntl-Light.ttf');
+    font-family: suisseIntlMedium;
+    src: url('SuisseIntl-Medium.ttf');
+
+}
+
+@font-face {
+    font-family: ppEikoItalicLight;
+    src: url('PPEiko-LightItalic.otf');
 }
 
 ul {
@@ -17,11 +23,21 @@ li {
     display: inline;
 }
   h1 {
-    font-family: suisseIntlLight;
+    font-family: suisseIntlMedium;
     color: black;
-    text-align: center;
-    font-size: 50px;
+    text-align: left;
+    font-size: 115pt;
     font-weight: 100;
     
   }
+  h2 {
+    font-family: ppEikoItalicLight;
+    font-size: 44pt;
+    font-weight: 100;
+  }
   
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
