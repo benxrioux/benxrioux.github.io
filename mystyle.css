@@ -1,10 +1,27 @@
 body {
     background-color: white;
   }
-  
+  @font-face {
+    font-family: suisseIntlLight;
+    src: url('SuisseIntl-Light.ttf');
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+    display: inline;
+}
   h1 {
-    color: navy;
+    font-family: suisseIntlLight;
+    color: black;
     text-align: center;
     font-size: 50px;
+    font-weight: 100;
+    
   }
   
