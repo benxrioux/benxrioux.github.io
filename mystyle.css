@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
   }
   @font-face {
     font-family: suisseIntlMedium;
@@ -12,32 +14,57 @@ body {
     src: url('PPEiko-LightItalic.otf');
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
+@font-face {
+  font-family: ppEikoThin;
+  src: url('PPEiko-Thin.otf');
 }
-
-li {
-    display: inline;
+   
+nav {
+  justify-content: space-between;
+  font-size: 12pt;
+  display: inline;
+  font-family: suisseIntlMedium;
+  float: right;
+  padding-top: 20px;
+  
+}
+a {
+color: black;
+font-style: none;
+text-decoration: none;
+padding: 20px; 
 }
   h1 {
     font-family: suisseIntlMedium;
     color: black;
-    text-align: left;
-    font-size: 115pt;
+    
+  
+    font-size: 90pt;
     font-weight: 100;
     
   }
   h2 {
     font-family: ppEikoItalicLight;
-    font-size: 44pt;
+    font-size: 30pt;
     font-weight: 100;
+    
+    
   }
   
   .headerContainer {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .initials {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: ppEikoThin;
+    font-size: 20pt;
+    color: black;
   }
