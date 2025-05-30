@@ -5,18 +5,18 @@ body {
   }
   @font-face {
     font-family: suisseIntlMedium;
-    src: url('SuisseIntl-Medium.ttf');
+    src: url('Fonts/SuisseIntl-Medium.ttf');
 
 }
 
 @font-face {
     font-family: ppEikoItalicLight;
-    src: url('PPEiko-LightItalic.otf');
+    src: url('Fonts/PPEiko-LightItalic.otf');
 }
 
 @font-face {
   font-family: ppEikoThin;
-  src: url('PPEiko-Thin.otf');
+  src: url('Fonts/PPEiko-Thin.otf');
 }
    
 nav {
@@ -27,13 +27,17 @@ nav {
   float: right;
   padding-top: 25px;
   
+  
 }
-a {
+nav.navBar a{
 color: black;
 font-style: none;
 text-decoration: none;
 padding: 20px; 
 }
+
+
+
   h1 {
     font-family: suisseIntlMedium;
     color: black;
@@ -65,4 +69,24 @@ padding: 20px;
     font-family: ppEikoThin;
     font-size: 20pt;
     color: black;
+  }
+  .row img {
+    height:450px;
+    width: 450px;
+  }
+
+  .row {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+  }
+  .aboutPhoto img {
+    height: 25%;
+    width: 25%;
+    
   }
