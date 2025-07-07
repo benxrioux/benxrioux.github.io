@@ -90,3 +90,8 @@ padding: 20px;
     width: 25%;
     
   }
+
+  h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+  }
