@@ -88,13 +88,14 @@ padding: 20px;
   .aboutPhoto img {
     height: 25%;
     width: 25%;
+    padding-left: 30px;
     
   }
 
   h3 {
-    font-family: suisseIntlMedium;
+    font-family: ppEikoThin;
     font-weight: 10;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-indent: 25px;
   }
