@@ -92,6 +92,9 @@ padding: 20px;
   }
 
   h3 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
+    font-family: suisseIntlMedium;
+    font-weight: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-indent: 25px;
   }
