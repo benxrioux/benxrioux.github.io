@@ -99,3 +99,6 @@ padding: 20px;
     padding-right: 50px;
     text-indent: 25px;
   }
+  .aboutPhoto {
+    align-items: baseline;
+  }
