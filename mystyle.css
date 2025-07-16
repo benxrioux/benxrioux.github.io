@@ -94,6 +94,7 @@ h2 {
   h3 {
     font-family: ppEikoThin;
     font-weight: 10;
+    word-spacing: 10%;
   }
 
 
@@ -103,5 +104,5 @@ h2 {
   }
 
  .aboutPhotoText {
-  padding-top: 80px;
+  padding-top: 100px;
  }
