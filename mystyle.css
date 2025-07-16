@@ -1,108 +1,103 @@
 body {
-    background-color: white;
-    margin: 0;
-    padding: 0;
-  }
-  @font-face {
-    font-family: suisseIntlMedium;
-    src: url('Fonts/SuisseIntl-Medium.ttf');
-
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: ppEikoItalicLight;
-    src: url('Fonts/PPEiko-LightItalic.otf');
+  font-family: suisseIntlMedium;
+  src: url('Fonts/SuisseIntl-Medium.ttf');
+}
+
+@font-face {
+  font-family: ppEikoItalicLight;
+  src: url('Fonts/PPEiko-LightItalic.otf');
 }
 
 @font-face {
   font-family: ppEikoThin;
   src: url('Fonts/PPEiko-Thin.otf');
 }
-   
+
 nav {
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-end;
   font-size: 12pt;
-  display: inline;
   font-family: suisseIntlMedium;
-  float: right;
   padding-top: 25px;
-  
-  
-}
-nav.navBar a{
-color: black;
-font-style: none;
-text-decoration: none;
-padding: 20px; 
 }
 
-
+nav.navBar a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+}
 
 h1 {
-   font-family: suisseIntlMedium;
-   color: black;
-   font-size: 90pt;
-   font-weight: 100;
-    
-  }
+  font-family: suisseIntlMedium;
+  color: black;
+  font-size: 90pt;
+  font-weight: 100;
+}
+
 h2 {
   font-family: ppEikoItalicLight;
   font-size: 30pt;
   font-weight: 100;
-} 
+}
 
-      
 .headerContainer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   width: 100%;
-  padding: 20px 20px;
+  padding: 20px;
   box-sizing: border-box;
-  }
-  
-  .initials {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-family: ppEikoThin;
-    font-size: 20pt;
-    color: black;
-  }
-  .row img {
-    height:450px;
-    width: 450px;
-  }
+}
 
-  .row {
-    justify-content: center;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+.initials {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: ppEikoThin;
+  font-size: 20pt;
+  color: black;
+}
 
-  }
-  .aboutPhoto img {
-    height: 25%;
-    width: 25%;
-    padding-left: 30px;
-    
-  }
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-  h3 {
-    font-family: ppEikoThin;
-    font-weight: 10;
-    word-spacing: 10%;
-  }
+.row img {
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+}
 
+.aboutPhoto img {
+  height: 25%;
+  width: 25%;
+  padding-left: 30px;
+  object-fit: cover;
+}
 
-  .aboutPhotoText  img {
-    float: left;
-    padding-right: 20px;
-  }
+h3 {
+  font-family: ppEikoThin;
+  font-weight: 100;
+  word-spacing: 0.1em;
+}
 
- .aboutPhotoText {
+.aboutPhotoText img {
+  float: left;
+  padding-right: 20px;
+}
+
+.aboutPhotoText {
   padding-top: 100px;
- }
+}
