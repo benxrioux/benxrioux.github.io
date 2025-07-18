@@ -75,14 +75,42 @@ h2 {
   gap: 20px;
   flex-wrap: wrap;
   width: 100%;
-  padding: 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
   box-sizing: border-box;
 }
 
 .row img {
-  height: 450px;
-  width: 450px;
+  width: 32%;
+  min-width: 180px;
+  max-width: 450px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   object-fit: cover;
+  flex: 1 1 32%;
+  margin: 0;
+}
+@media (max-width: 1000px) {
+  .row img {
+    width: 48%;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 700px) {
+  .row {
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .row img {
+    width: 98%;
+    min-width: 80px;
+    max-width: 100%;
+  }
 }
 
 .aboutPhoto img {
@@ -110,5 +138,5 @@ h3 {
 }
 
 .contact {
-  padding-left: 20px;
+  padding-left: 40px;
 }
